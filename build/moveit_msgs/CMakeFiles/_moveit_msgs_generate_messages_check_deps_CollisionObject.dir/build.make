@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hambal/catkin_ws/build
 include moveit_msgs/CMakeFiles/_moveit_msgs_generate_messages_check_deps_CollisionObject.dir/progress.make
 
 moveit_msgs/CMakeFiles/_moveit_msgs_generate_messages_check_deps_CollisionObject:
-	cd /home/hambal/catkin_ws/build/moveit_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py moveit_msgs /home/hambal/catkin_ws/src/moveit_msgs/msg/CollisionObject.msg geometry_msgs/Quaternion:shape_msgs/Mesh:shape_msgs/SolidPrimitive:geometry_msgs/Pose:std_msgs/Header:shape_msgs/MeshTriangle:shape_msgs/Plane:geometry_msgs/Point:object_recognition_msgs/ObjectType
+	cd /home/hambal/catkin_ws/build/moveit_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py moveit_msgs /home/hambal/catkin_ws/src/moveit_msgs/msg/CollisionObject.msg object_recognition_msgs/ObjectType:geometry_msgs/Point:shape_msgs/MeshTriangle:shape_msgs/SolidPrimitive:shape_msgs/Plane:geometry_msgs/Pose:std_msgs/Header:shape_msgs/Mesh:geometry_msgs/Quaternion
 
 _moveit_msgs_generate_messages_check_deps_CollisionObject: moveit_msgs/CMakeFiles/_moveit_msgs_generate_messages_check_deps_CollisionObject
 _moveit_msgs_generate_messages_check_deps_CollisionObject: moveit_msgs/CMakeFiles/_moveit_msgs_generate_messages_check_deps_CollisionObject.dir/build.make

@@ -1,0 +1,15 @@
+<launch>
+    <param name="robot_description" command="$(find xacro)/xacro '$(find custom_robot_arm)/urdf/robot_arm.urdf'" />
+    
+    <!-- Static Transform Publisher -->
+    <node name="static_tf_pub_base" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 0 world base_link" />
+    <node name="static_tf_pub_link1" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0.1 0 0 0 world link1" />
+    <node name="static_tf_pub_link2" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0.5 0 0 0 link1 link2" />
+    <node name="static_tf_pub_link3" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0.5 0 0 0 link2 link3" />
+
+
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen" />
+    <node name="rviz" pkg="rviz" type="rviz" output="screen">
+        <param name="config" value="$(find custom_robot_arm)/rviz/robot_arm.rviz"/>
+    </node>
+</launch>

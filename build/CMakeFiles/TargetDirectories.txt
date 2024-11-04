@@ -211,6 +211,13 @@
 /home/hambal/catkin_ws/build/geometric_shapes/test/CMakeFiles/run_tests_geometric_shapes_gtest_test_shapes.dir
 /home/hambal/catkin_ws/build/geometric_shapes/test/CMakeFiles/run_tests_geometric_shapes_gtest_test_bounding_sphere.dir
 /home/hambal/catkin_ws/build/geometric_shapes/test/CMakeFiles/_run_tests_geometric_shapes_gtest_test_shapes.dir
+/home/hambal/catkin_ws/build/custom_robot_arm/CMakeFiles/install/strip.dir
+/home/hambal/catkin_ws/build/custom_robot_arm/CMakeFiles/install/local.dir
+/home/hambal/catkin_ws/build/custom_robot_arm/CMakeFiles/install.dir
+/home/hambal/catkin_ws/build/custom_robot_arm/CMakeFiles/list_install_components.dir
+/home/hambal/catkin_ws/build/custom_robot_arm/CMakeFiles/rebuild_cache.dir
+/home/hambal/catkin_ws/build/custom_robot_arm/CMakeFiles/edit_cache.dir
+/home/hambal/catkin_ws/build/custom_robot_arm/CMakeFiles/test.dir
 /home/hambal/catkin_ws/build/ros_practice/CMakeFiles/install/strip.dir
 /home/hambal/catkin_ws/build/ros_practice/CMakeFiles/install/local.dir
 /home/hambal/catkin_ws/build/ros_practice/CMakeFiles/install.dir
