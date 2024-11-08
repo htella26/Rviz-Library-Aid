@@ -1,3 +1,9 @@
+<!-- Students: [Hambal Tella] -->
+<!-- Lab 3: [custom_robot_arm] -->
+<!-- Date: [November 3rd 2024]-->
+<!-- Acknowledgements: [Lab manual] -->
+
+
 <?xml version="1.0" ?>
 <robot name="three_dof_robot_arm">
     <!-- Base Link -->

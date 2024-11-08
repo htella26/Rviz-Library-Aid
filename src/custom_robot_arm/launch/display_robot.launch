@@ -1,3 +1,8 @@
+<!-- Students: [Hambal Tella] -->
+<!-- Lab 3: [custom_robot_arm] -->
+<!-- Date: [November 3rd 2024]-->
+<!-- Acknowledgements: [Lab manual] -->
+
 <launch>
     <param name="robot_description" command="$(find xacro)/xacro '$(find custom_robot_arm)/urdf/robot_arm.urdf'" />
     
